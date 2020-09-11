@@ -5,4 +5,4 @@
 ## Table of Content
 
 - [Creational Patterns](creational/README.md)
-  - [Factory Method](creational/factory-method/factory.md)
+  - [Factory Method](creational/factory-method/README.md)
