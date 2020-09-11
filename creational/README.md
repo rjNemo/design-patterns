@@ -1,3 +1,3 @@
 # Creational Patterns
 
-- [Factory Method](factory-method/factory.md)
+- [Factory Method](factory-method/README.md)
