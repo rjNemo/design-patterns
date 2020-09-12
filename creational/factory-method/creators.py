@@ -4,6 +4,7 @@ product's type.
 """
 
 from __future__ import annotations
+
 from ICreator import ICreator
 from products import ConcreteProduct1, ConcreteProduct2
 
