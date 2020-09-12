@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+
 from AbstractProductA import AbstractProductA
 from AbstractProductB import AbstractProductB
 

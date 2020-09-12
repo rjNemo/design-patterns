@@ -1,6 +1,6 @@
 from AbstractFactory import AbstractFactory
-from products import (ConcreteProductA1, ConcreteProductA2,
-                      ConcreteProductB1, ConcreteProductB2)
+from products import (ConcreteProductA1, ConcreteProductA2, ConcreteProductB1,
+                      ConcreteProductB2)
 
 
 class ConcreteFactory1(AbstractFactory):
