@@ -8,3 +8,4 @@
   - [Factory Method](creational/factory-method/README.md)
   - [Abstract Factory](creational/abstract-factory/README.md)
   - [Builder](creational/builder/README.md)
+  - [Prototype](creational/prototype/README.md)
