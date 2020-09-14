@@ -6,8 +6,8 @@ from AbstractProductA import AbstractProductA
 class AbstractProductB(ABC):
     """
     Here's the the base interface of another product. All products can interact
-    with each other, but proper interaction is possible only between products of
-    the same concrete variant.
+    with each other, but proper interaction is possible only between products
+    of the same concrete variant.
     """
 
     @abstractmethod
