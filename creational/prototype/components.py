@@ -21,15 +21,16 @@ class SomeComponent:
     implementations have to override `__copy__` and `__deepcopy__` member
     functions.
     """
+
     some_int: int
     some_list_of_objects: List
     some_circular_ref: Any
 
     def __copy__(self) -> SomeComponent:
         """
-        Create a shallow copy. This method will be called whenever someone calls
-        `copy.copy` with this object and the returned value is returned as the
-        new shallow copy.
+        Create a shallow copy. This method will be called whenever someone
+        calls `copy.copy` with this object and the returned value is returned
+        as the new shallow copy.
         """
 
         # First, let's create copies of the nested objects.
@@ -38,8 +39,7 @@ class SomeComponent:
 
         # Then, let's clone the object itself, using the prepared clones of the
         # nested objects.
-        new = self.__class__(
-            self.some_int, some_list_of_objects, some_circular_ref)
+        new = self.__class__(self.some_int, some_list_of_objects, some_circular_ref)
         new.__dict__.update(self.__dict__)
 
         return new
@@ -63,8 +63,7 @@ class SomeComponent:
 
         # Then, let's clone the object itself, using the prepared clones of the
         # nested objects.
-        new = self.__class__(
-            self.some_int, some_list_of_objects, some_circular_ref)
+        new = self.__class__(self.some_int, some_list_of_objects, some_circular_ref)
 
         new.__dict__ = copy.deepcopy(self.__dict__, memo)
 

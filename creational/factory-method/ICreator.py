@@ -29,6 +29,9 @@ class ICreator(ABC):
         product = self.factory_method()
 
         # Now, use the product.
-        result = f"Creator: The same creator's code has just worked with {product.operation()}"
+        result = f"""
+        Creator: The same creator's code has just worked with
+        {product.operation()}
+        """
 
         return result

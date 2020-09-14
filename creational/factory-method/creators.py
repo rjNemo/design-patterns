@@ -21,6 +21,5 @@ class ConcreteCreator1(ICreator):
 
 
 class ConcreteCreator2(ICreator):
-
     def factory_method(self) -> ConcreteProduct2:
         return ConcreteProduct2()

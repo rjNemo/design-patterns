@@ -11,8 +11,8 @@ class ConcreteBuilder1(Builder):
 
     def __init__(self) -> None:
         """
-        A fresh builder instance should contain a blank product object, which is
-        used in further assembly.
+        A fresh builder instance should contain a blank product object, which
+        is used in further assembly.
         """
         self.reset()
 
@@ -25,8 +25,8 @@ class ConcreteBuilder1(Builder):
         Concrete Builders are supposed to provide their own methods for
         retrieving results. That's because various types of builders may create
         entirely different products that don't follow the same interface.
-        Therefore, such methods cannot be declared in the base Builder interface
-        (at least in a statically typed programming language).
+        Therefore, such methods cannot be declared in the base Builder
+        interface (at least in a statically typed programming language).
 
         Usually, after returning the end result to the client, a builder
         instance is expected to be ready to start producing another product.
