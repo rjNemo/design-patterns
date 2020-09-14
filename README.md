@@ -9,3 +9,4 @@
   - [Abstract Factory](creational/abstract-factory/README.md)
   - [Builder](creational/builder/README.md)
   - [Prototype](creational/prototype/README.md)
+  - [Singleton](creational/singleton/README.md)
