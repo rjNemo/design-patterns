@@ -16,3 +16,4 @@
   - [Composite](structural/composite/README.md)
   - [Decorator](structural/decorator/README.md)
   - [Facade](structural/facade/README.md)
+  - [Flyweight](structural/flyweight/README.md)

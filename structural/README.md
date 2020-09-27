@@ -7,3 +7,4 @@ Structural patterns explain how to assemble objects and classes into larger stru
 - [Composite](composite/README.md)
 - [Decorator](decorator/README.md)
 - [Facade](facade/README.md)
+- [Flyweight](flyweight/README.md)
