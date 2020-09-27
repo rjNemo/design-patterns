@@ -14,4 +14,5 @@
   - [Adapter](structural/adapter/README.md)
   - [Bridge](structural/bridge/README.md)
   - [Composite](structural/composite/README.md)
+  - [Decorator](structural/decorator/README.md)
   - [Facade](structural/facade/README.md)
