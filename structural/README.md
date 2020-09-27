@@ -5,3 +5,4 @@ Structural patterns explain how to assemble objects and classes into larger stru
 - [Adapter](adapter/README.md)
 - [Bridge](bridge/README.md)
 - [Composite](composite/README.md)
+- [Facade](facade/README.md)
