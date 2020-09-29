@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import List
 
-from component import Component
+from structural.composite.component import Component
 
 
 @dataclass

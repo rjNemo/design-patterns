@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from IImplementation import Implementation
+from structural.bridge.IImplementation import Implementation
 
 
 @dataclass

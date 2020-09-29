@@ -1,6 +1,7 @@
-from component import Component
-from concrete_component import ConcreteComponent
-from concrete_decorators import ConcreteDecoratorA, ConcreteDecoratorB
+from structural.decorator.component import Component
+from structural.decorator.concrete_component import ConcreteComponent
+from structural.decorator.concrete_decorators import ConcreteDecoratorA, \
+    ConcreteDecoratorB
 
 
 def client_code(component: Component):

@@ -1,7 +1,8 @@
 """The client code can work with any concrete factory class."""
 
-from AbstractFactory import AbstractFactory
-from factories import ConcreteFactory1, ConcreteFactory2
+from creational.abstract_factory.AbstractFactory import AbstractFactory
+from creational.abstract_factory.factories import ConcreteFactory1, \
+    ConcreteFactory2
 
 
 def client_code(factory: AbstractFactory) -> None:

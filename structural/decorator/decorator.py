@@ -1,5 +1,6 @@
-from component import Component
 from dataclasses import dataclass
+
+from structural.decorator.component import Component
 
 
 @dataclass

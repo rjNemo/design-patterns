@@ -1,7 +1,7 @@
 """Concrete Products are created by corresponding Concrete Factories."""
 
-from AbstractProductA import AbstractProductA
-from AbstractProductB import AbstractProductB
+from creational.abstract_factory.AbstractProductA import AbstractProductA
+from creational.abstract_factory.AbstractProductB import AbstractProductB
 
 
 class ConcreteProductA1(AbstractProductA):

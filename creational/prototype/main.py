@@ -1,6 +1,6 @@
 import copy
 
-from components import SelfReferencingEntity, SomeComponent
+from creational.prototype.components import SelfReferencingEntity, SomeComponent
 
 list_of_objects = [1, {1, 2, 3}, [1, 2, 3]]
 circular_ref = SelfReferencingEntity()

@@ -1,4 +1,5 @@
-from component import Component
+from structural.composite.component import Component
+
 
 class ConcreteComponent(Component):
     """

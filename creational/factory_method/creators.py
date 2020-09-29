@@ -3,10 +3,9 @@ Concrete Creators override the factory method in order to change the resulting
 product's type.
 """
 
-from __future__ import annotations
-
-from ICreator import ICreator
-from products import ConcreteProduct1, ConcreteProduct2
+from creational.factory_method.ICreator import ICreator
+from creational.factory_method.products import ConcreteProduct1, \
+    ConcreteProduct2
 
 
 class ConcreteCreator1(ICreator):
