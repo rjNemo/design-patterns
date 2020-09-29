@@ -8,3 +8,4 @@ Structural patterns explain how to assemble objects and classes into larger stru
 - [Decorator](decorator/README.md)
 - [Facade](facade/README.md)
 - [Flyweight](flyweight/README.md)
+- [Proxy](proxy/README.md)
