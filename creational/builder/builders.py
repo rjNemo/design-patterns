@@ -1,5 +1,5 @@
-from Builder import Builder
-from products import Product1
+from creational.builder.Builder import Builder
+from creational.builder.products import Product1
 
 
 class ConcreteBuilder1(Builder):

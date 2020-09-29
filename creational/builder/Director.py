@@ -1,4 +1,4 @@
-from Builder import Builder
+from creational.builder.Builder import Builder
 
 
 class Director:

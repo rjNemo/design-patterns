@@ -1,6 +1,6 @@
-from component import Component
-from composite import Composite
-from leaf import Leaf
+from structural.composite.component import Component
+from structural.composite.composite import Composite
+from structural.composite.leaf import Leaf
 
 
 def client_code(component: Component) -> None:

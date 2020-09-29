@@ -1,5 +1,6 @@
-from creators import ConcreteCreator1, ConcreteCreator2
-from ICreator import ICreator
+from creational.factory_method.ICreator import ICreator
+from creational.factory_method.creators import ConcreteCreator1, \
+    ConcreteCreator2
 
 
 def client_code(creator: ICreator) -> None:

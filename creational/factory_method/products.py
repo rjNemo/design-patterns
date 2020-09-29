@@ -2,7 +2,7 @@
 Concrete Products provide various implementations of the Product interface.
 """
 
-from IProduct import IProduct
+from creational.factory_method.IProduct import IProduct
 
 
 class ConcreteProduct1(IProduct):

@@ -1,10 +1,6 @@
-from AbstractFactory import AbstractFactory
-from products import (
-    ConcreteProductA1,
-    ConcreteProductA2,
-    ConcreteProductB1,
-    ConcreteProductB2,
-)
+from creational.abstract_factory.AbstractFactory import AbstractFactory
+from creational.abstract_factory.products import ConcreteProductA1, \
+    ConcreteProductB1, ConcreteProductA2, ConcreteProductB2
 
 
 class ConcreteFactory1(AbstractFactory):

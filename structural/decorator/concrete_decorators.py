@@ -1,4 +1,4 @@
-from decorator import Decorator
+from structural.decorator.decorator import Decorator
 
 
 class ConcreteDecoratorA(Decorator):

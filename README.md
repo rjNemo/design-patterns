@@ -23,8 +23,8 @@ and divided into three groups.
 
 ### [Creational Patterns](creational/README.md)
 
-- [Factory Method](creational/factory-method/README.md)
-- [Abstract Factory](creational/abstract-factory/README.md)
+- [Factory Method](creational/factory_method/README.md)
+- [Abstract Factory](creational/abstract_factory/README.md)
 - [Builder](creational/builder/README.md)
 - [Prototype](creational/prototype/README.md)
 - [Singleton](creational/singleton/README.md)

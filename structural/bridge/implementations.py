@@ -2,7 +2,7 @@
 Each Concrete Implementation corresponds to a specific platform and implements
 the Implementation interface using that platform's API.
 """
-from IImplementation import Implementation
+from structural.bridge.IImplementation import Implementation
 
 
 class ConcreteImplementationA(Implementation):

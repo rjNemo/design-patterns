@@ -4,8 +4,8 @@ initiates the construction process. The end result is retrieved from the
 builder object.
 """
 
-from builders import ConcreteBuilder1
-from Director import Director
+from creational.builder.Director import Director
+from creational.builder.builders import ConcreteBuilder1
 
 director = Director()
 builder = ConcreteBuilder1()

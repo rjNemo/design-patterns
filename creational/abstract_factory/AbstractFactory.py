@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
-from AbstractProductA import AbstractProductA
-from AbstractProductB import AbstractProductB
+from creational.abstract_factory.AbstractProductA import AbstractProductA
+from creational.abstract_factory.AbstractProductB import AbstractProductB
 
 
 class AbstractFactory(ABC):
