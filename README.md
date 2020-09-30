@@ -39,3 +39,6 @@ and divided into three groups.
 - [Flyweight](structural/flyweight/README.md)
 - [Proxy](structural/proxy/README.md)
 
+### [Behavioral Patterns](behavioral/README.md)
+
+- [Chain of Responsibility](behavioral/chain_responsibility/README.md)
