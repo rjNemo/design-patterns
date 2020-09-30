@@ -2,6 +2,8 @@
 
 Creational patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.
 
+## Patterns
+
 - [Factory Method](factory_method/README.md)
 - [Abstract Factory](abstract_factory/README.md)
 - [Builder](builder/README.md)
