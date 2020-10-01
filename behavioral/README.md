@@ -5,3 +5,4 @@ Behavioral design patterns are concerned with algorithms and the assignment of r
 ## Patterns
 
 - [Chain of Responsibility](chain_responsibility/README.md)
+- [Command](command/README.md)
