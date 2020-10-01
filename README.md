@@ -42,3 +42,4 @@ and divided into three groups.
 ### [Behavioral Patterns](behavioral/README.md)
 
 - [Chain of Responsibility](behavioral/chain_responsibility/README.md)
+- [Command](behavioral/command/README.md)
