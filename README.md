@@ -1,7 +1,5 @@
 # Design Patterns in Python
 
-- [Link](https://refactoring.guru/design-patterns/catalog)
-
 Design patterns are typical solutions to common problems
 in software design. Each pattern is like a blueprint
 that you can customize to solve a particular
@@ -44,3 +42,9 @@ and divided into three groups.
 - [Chain of Responsibility](behavioral/chain_responsibility/README.md)
 - [Command](behavioral/command/README.md)
 - [Iterator](behavioral/iterator/README.md)
+- [Mediator](behavioral/mediator/README.md)
+
+## Resources
+
+- [Refactoring Guru](https://refactoring.guru/design-patterns/catalog)
+- [Python Design Patterns](https://python-patterns.guide/)
