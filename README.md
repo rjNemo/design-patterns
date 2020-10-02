@@ -43,3 +43,4 @@ and divided into three groups.
 
 - [Chain of Responsibility](behavioral/chain_responsibility/README.md)
 - [Command](behavioral/command/README.md)
+- [Iterator](behavioral/iterator/README.md)
