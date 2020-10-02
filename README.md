@@ -44,7 +44,7 @@ and divided into three groups.
 - [Iterator](behavioral/iterator/README.md)
 - [Mediator](behavioral/mediator/README.md)
 
-## Ressources
+## Resources
 
 - [Refactoring Guru](https://refactoring.guru/design-patterns/catalog)
 - [Python Design Patterns](https://python-patterns.guide/)
