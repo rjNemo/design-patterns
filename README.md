@@ -43,6 +43,7 @@ and divided into three groups.
 - [Command](behavioral/command/README.md)
 - [Iterator](behavioral/iterator/README.md)
 - [Mediator](behavioral/mediator/README.md)
+- [Memento](behavioral/memento/README.md)
 
 ## Resources
 
