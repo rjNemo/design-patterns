@@ -10,10 +10,10 @@ def client_code(facade: Facade) -> None:
     subsystem. This approach lets you keep the complexity under control.
     """
 
-    print(facade.operation(), end='')
+    print(facade.operation(), end="")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # The client code may have some of the subsystem's objects already created.
     # In this case, it might be worthwhile to initialize the Facade with these
     # objects instead of letting the Facade create new instances.

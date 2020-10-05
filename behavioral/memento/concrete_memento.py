@@ -4,7 +4,6 @@ from behavioral.memento.memento import Memento
 
 
 class ConcreteMemento(Memento):
-
     def __init__(self, state: str) -> None:
         self._state = state
         self._date = str(datetime.now())[:19]

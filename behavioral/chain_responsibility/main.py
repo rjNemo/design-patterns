@@ -1,4 +1,8 @@
-from behavioral.chain_responsibility.concrete_handlers import MonkeyHandler, SquirrelHandler, DogHandler
+from behavioral.chain_responsibility.concrete_handlers import (
+    MonkeyHandler,
+    SquirrelHandler,
+    DogHandler,
+)
 from behavioral.chain_responsibility.handler import Handler
 
 
@@ -18,7 +22,7 @@ def client_code(handler: Handler):
             print(f"  {food} was left untouched.", end="")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     monkey = MonkeyHandler()
     squirrel = SquirrelHandler()
     dog = DogHandler()

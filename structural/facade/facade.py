@@ -25,12 +25,13 @@ class Facade:
         functionality of the subsystems. However, clients get only to a fraction
         of a subsystem's capabilities.
         """
-        results = []
-        results.append("Facade initializes subsystems:")
-        results.append(self._subsystem1.operation1())
-        results.append(self._subsystem2.operation1())
-        results.append("Facade orders subsystems to perform the action:")
-        results.append(self._subsystem1.operation_n())
-        results.append(self._subsystem2.operation_z())
+        results = [
+            "Facade initializes subsystems:",
+            self._subsystem1.operation1(),
+            self._subsystem2.operation1(),
+            "Facade orders subsystems to perform the action:",
+            self._subsystem1.operation_n(),
+            self._subsystem2.operation_z(),
+        ]
 
-        return '\n'.join(results)
+        return "\n".join(results)

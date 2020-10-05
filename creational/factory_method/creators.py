@@ -4,8 +4,7 @@ product's type.
 """
 
 from creational.factory_method.ICreator import ICreator
-from creational.factory_method.products import ConcreteProduct1, \
-    ConcreteProduct2
+from creational.factory_method.products import ConcreteProduct1, ConcreteProduct2
 
 
 class ConcreteCreator1(ICreator):
