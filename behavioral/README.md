@@ -9,3 +9,4 @@ Behavioral design patterns are concerned with algorithms and the assignment of r
 - [Iterator](iterator/README.md)
 - [Mediator](mediator/README.md)
 - [Memento](memento/README.md)
+- [Observer](observer/README.md)
