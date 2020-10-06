@@ -12,7 +12,8 @@ class SimpleCommand(Command):
 
     def execute(self) -> None:
         print(
-            f"SimpleCommand: See, I can do simple things like printing ({self._payload})")
+            f"SimpleCommand: See, I can do simple things like printing ({self._payload})"
+        )
 
 
 class ComplexCommand(Command):
@@ -36,6 +37,8 @@ class ComplexCommand(Command):
         Commands can delegate to any methods of a receiver.
         """
 
-        print("ComplexCommand: Complex stuff should be done by a receiver object", end="")
+        print(
+            "ComplexCommand: Complex stuff should be done by a receiver object", end=""
+        )
         self._receiver.do_something(self._a)
         self._receiver.do_something_else(self._b)

@@ -44,6 +44,7 @@ and divided into three groups.
 - [Iterator](behavioral/iterator/README.md)
 - [Mediator](behavioral/mediator/README.md)
 - [Memento](behavioral/memento/README.md)
+- [Observer](behavioral/observer/README.md)
 
 ## Resources
 

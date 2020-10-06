@@ -3,8 +3,10 @@ The client code should be able to work with any pre-configured abstraction-
 implementation combination.
 """
 from structural.bridge.abstractions import Abstraction
-from structural.bridge.implementations import ConcreteImplementationA, \
-    ConcreteImplementationB
+from structural.bridge.implementations import (
+    ConcreteImplementationA,
+    ConcreteImplementationB,
+)
 
 
 def client_code(abstraction: Abstraction) -> None:

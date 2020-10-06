@@ -1,7 +1,9 @@
 from structural.decorator.component import Component
 from structural.decorator.concrete_component import ConcreteComponent
-from structural.decorator.concrete_decorators import ConcreteDecoratorA, \
-    ConcreteDecoratorB
+from structural.decorator.concrete_decorators import (
+    ConcreteDecoratorA,
+    ConcreteDecoratorB,
+)
 
 
 def client_code(component: Component):
@@ -11,10 +13,10 @@ def client_code(component: Component):
     with.
     """
 
-    print(f"RESULT: {component.operation()}", end='')
+    print(f"RESULT: {component.operation()}", end="")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # This way the client code can support both simple components...
     simple = ConcreteComponent()
     print("Client: I've got a simple component:")
