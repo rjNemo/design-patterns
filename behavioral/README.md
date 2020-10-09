@@ -11,3 +11,4 @@ Behavioral design patterns are concerned with algorithms and the assignment of r
 - [Memento](memento/README.md)
 - [Observer](observer/README.md)
 - [State](state/README.md)
+- [Strategy](strategy/README.md)
