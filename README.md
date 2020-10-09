@@ -46,6 +46,7 @@ and divided into three groups.
 - [Memento](behavioral/memento/README.md)
 - [Observer](behavioral/observer/README.md)
 - [State](behavioral/state/README.md)
+- [Strategy](behavioral/strategy/README.md)
 
 ## Resources
 
