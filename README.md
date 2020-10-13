@@ -47,6 +47,7 @@ and divided into three groups.
 - [Observer](behavioral/observer/README.md)
 - [State](behavioral/state/README.md)
 - [Strategy](behavioral/strategy/README.md)
+- [Visitor](behavioral/visitor/README.md)
 
 ## Resources
 
